@@ -1,0 +1,64 @@
+/* Posizione del form */
+.main-login{
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Misure del form*/
+.login-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Titolo del form */
+.login-title {
+    color: black; 
+    font-size: 40px; 
+    font-weight: bold; 
+}
+
+/* Link per il form login + hover*/
+.link-custom{ 
+    text-decoration: none;       
+    color: #000;                 
+    font-weight: bold;           
+    transition: background 0.3s; 
+    padding: 4px 8px;            
+    border-radius: 4px;          
+}
+
+.link-custom:hover {
+    color: #e63600; 
+}
+
+/* Modifiche del placeholder + modifiche focus */
+input.form-control:focus {
+    outline: none; 
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.3); 
+    border-color: #888888; 
+}
+
+input.form-control::placeholder {
+    color: #bfbfbf; 
+    opacity: 1; 
+}
+
+/* Button Continue + Hover */
+.button-custom {
+    background-color: #ff3d00; 
+    color: white;   
+    margin-top: 20px;          
+    padding: 10px 70px;       
+    border: none;             
+    border-radius: 5px;       
+    cursor: pointer;          
+    transition: background-color 0.3s ease; 
+}
+
+.button-custom:hover {
+    background-color: #e63600; 
+}

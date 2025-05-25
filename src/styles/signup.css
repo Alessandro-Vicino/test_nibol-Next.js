@@ -1,0 +1,114 @@
+/* Posizione del form */
+.main-login{
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Misure del form*/
+.login-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Titolo del form */
+.login-title {
+    color: black; 
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+/* Link per il form login + hover*/
+.link-custom{
+    text-decoration: none;     
+    color: #000;                 
+    font-weight: bold;           
+    padding: 4px 8px;            
+    border-radius: 4px;          
+}
+
+
+/* Modifiche del placeholder + modifiche focus */
+input.form-control::placeholder {
+    color: #bfbfbf; 
+    opacity: 1;
+}
+
+input.form-control:focus {
+    outline: none; /* rimuove il bordo di default blu */
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.3); /* ombra grigia morbida */
+    border-color: #888888; /* cambia il bordo in grigio scuro */
+}
+
+/* Modifiche password-bar + cambiamento colore in base alla complessità */
+.password-strength-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* spazio tra barra e testo */
+    margin-top: 5px;
+}
+
+.password-strength-bar {
+    width: 400px; 
+    height: 6px;
+    border-radius: 4px;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.password-strength-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+
+/* Modifica checkbox + modifiche focus */
+.custom-checkbox:checked {
+    background-color: #ff3d00;
+    border-color: #ff3d00;
+}
+
+.custom-checkbox:focus {
+    outline: none; 
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.3); 
+    border-color: #686767; 
+}
+
+/* Modifica Link Terms and Conditions */
+.link-terms {
+    color: black;
+    font-weight: normal;
+    text-decoration: underline; 
+}
+
+.link-custom:hover {
+    color: #e63600; 
+}
+
+
+/* Button Create Account + Hover */
+.button-custom {
+    background-color: #ff3d00; 
+    margin-top: 20px;          
+    padding: 10px 70px;       
+    border: none;             
+    border-radius: 5px;       
+    cursor: pointer;          
+    transition: background-color 0.3s ease; 
+}
+
+.button-custom:hover {
+    background-color: #e63600; 
+}
+
+
+
+
+
+
+
+
